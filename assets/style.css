@@ -1,0 +1,91 @@
+#box {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+}
+
+#timer {
+    background-color:blueviolet;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color:cornsilk;
+}
+
+#questionArea {
+    margin: 20px;
+}
+
+#timer {
+    float: right;
+}
+
+#back {
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    color: cornsilk;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+}
+
+button {
+    border-radius: 9px;
+}
+
+textarea {
+    width: 90%;
+    margin: 25px;
+}
+
+#clear {
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    color: cornsilk;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
+
+#submit {
+    background-color: blueviolet;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+label {
+    margin-right : 10px;
+}
+
+input {
+    width: 50%;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    margin-top: 12px;
+    padding: 5px 15px;
+    font-size: 18px;
+    color: cornsilk;
+    background-color: blueviolet;
+}
+
+#newDiv {
+    border-top: 2px solid gray;
+    margin-top: 20px;
+}
