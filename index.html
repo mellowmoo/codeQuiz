@@ -4,14 +4,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <link rel="stylesheet" href="./assets/css/style.css" />
-
-  <title>jQuery UI Interactions</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Code Quiz</title>
 </head>
 
 <body>
+  <!-- Link to the highscore page -->\
+  <a href = "highscore.html">Check Out The Highscores Here!</a>
+  <!-- div that wraps around everything -->
+  <div id = "box">
+    <!-- Timer -->
+    <div id = "timer"></div>
+    <!-- Quiz Area -->
+    <div id = "questionArea">
+      <h1>Coding Quiz Speedrun</h1>
+      <p>Welcome to the Coding Quiz Speedrun!  Try your best to answer all the questions correctly, and as fast as possible.  Wrong answers will cut down the time left by 10 seconds. Will you be able to beat you previous best?</p>
+      <ul id="choiceUl"></ul>
+      <!-- Buttons -->
+      <button id="startButton">Start the Quiz</button>
+    </div>
 
+  </div>
+
+  <script src ="assets/testBank.js"></script>
+  
 </body>
 
 
