@@ -7,20 +7,20 @@
     border: 2px solid blue;
 }
 
-#timer {
-    background-color:blueviolet;
-    margin-left: 33%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color:cornsilk;
-}
-
 #questionArea {
     margin: 20px;
 }
 
 #timer {
     float: right;
+}
+
+#startButton {
+    background-color:blueviolet;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color:cornsilk;
 }
 
 #back {
@@ -88,4 +88,42 @@ li {
 #newDiv {
     border-top: 2px solid gray;
     margin-top: 20px;
+}
+
+/* Responsiveness */
+/* query for 768px */
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+    #box {
+        position: absolute;
+        left: 20%;
+    }
+    a {
+        margin-left: 20%;
+    }
+    #back {
+        position:relative;
+        left: 55%;
+    }
+    #clear {
+        position: relative;
+        right: 5%;
+    }
+    
+}
+
+/* query for 640px */
+@media screen and (max-width: 640px) {
+    body {
+        min-width: 640px;
+    }
+    #box {
+        position: absolute;
+        left: 10%;
+    }
+    a {
+        margin-left: 10%;
+    }
 }
