@@ -136,7 +136,7 @@ function finisher() {
         var remainingTime = seconds;
         var newP2 = document.createElement("p");
         clearInterval(hold);
-        newP.textContent = "Your score is" + remainingTime;
+        newP.textContent = "Your score is " + remainingTime;
 
         questionArea.appendChild(newP2);
     }
@@ -145,7 +145,7 @@ function finisher() {
     newLabel.setAttribute("id", "newLabel");
     newLabel.textContent = "Enter your initials: ";
 
-    questionsDiv.appendChild(newLabel);
+    questionArea.appendChild(newLabel);
 
     // input
     var newInput = document.createElement("input");
@@ -153,12 +153,12 @@ function finisher() {
     newInput.setAttribute("id", "initials");
     newInput.textContent = "";
 
-    questionsDiv.appendChild(newInput);
+    questionArea.appendChild(newInput);
 
     // create a submit button
     var newSubmit = document.createElement("button");
     newSubmit.setAttribute("type", "submit");
-    newSubmit.setAttribute("id", "Submit");
+    newSubmit.setAttribute("id", "submit");
     newSubmit.textContent = "Submit";
 
     questionArea.appendChild(newSubmit);
@@ -186,7 +186,7 @@ function finisher() {
             allScores.push(finalScore);
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
-            // Travels to final page
+            // send the user to the highscore page
             window.location.replace("./highscore.html");
         }
     });
